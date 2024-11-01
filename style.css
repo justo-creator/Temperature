@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+}
+
+.container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+form{
+    background: black;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 9px;
+}
+
+form h1{
+    font-size: 3rem;
+    color: white;
+}
+
+form div input{
+    padding: 10px 60px;
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'outfit', sans-serif;
+    border: none;
+    font-size: 17px;
+}
+
+.container p{
+    color: white;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form div button{
+  color: black;
+  background: white;
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  font-family: 'outfit';
+  font-weight: bold;
+}
